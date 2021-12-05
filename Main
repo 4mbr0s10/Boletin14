@@ -1,0 +1,21 @@
+
+package boletin14;
+
+/**
+ *
+ * @author celta
+ */
+public class Boletin14 {
+
+  
+    public static void main(String[] args) {
+        Biblioteca bl= new Biblioteca(0, "titulo", 0);
+        Libro lb = new Libro(true, 0, "titulo", 0);
+        Revista rv= new Revista(0, 0, "titulo", 0);
+        System.out.println(lb.toString());
+        System.out.println(rv.toString());
+        System.out.println(bl.toString());
+   
+    }
+    
+}
