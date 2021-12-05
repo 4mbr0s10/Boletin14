@@ -1,0 +1,31 @@
+
+package boletin14;
+
+/**
+ *
+ * @author celta
+ */
+public class Revista extends Biblioteca {
+    
+    private int numero;
+
+    public Revista(int numero, int codigo, String titulo, int ano) {
+        super(codigo, titulo, ano);
+        this.numero = numero;
+    }
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public int getAno() {
+        return ano;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString()+ "Revista{" + "numero=" + numero + '}';
+    }
+    
+    
+}
